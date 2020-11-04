@@ -98,3 +98,48 @@ p
   margin: 0;
 
 }
+
+.activites1
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row ;
+  height: 500px;
+  width: 900px;
+  margin: auto;
+}
+.activites2
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 430px;
+}
+.activites3
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 430px;
+  margin-top: 91px;
+}
+
+.activitesimages
+{
+ height: 300 px;
+ width: 180px;
+}
+
+.footer
+{
+  display: flex;
+  height: 180px;
+  width: 900px;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #F2F2F2;
+  margin:auto;
+  border-radius: 2%;
+}
