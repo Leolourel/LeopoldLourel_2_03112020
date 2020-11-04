@@ -6,6 +6,12 @@ body {
   color: black;
 }
 
+.blocpage
+{
+  width: 900px;
+  margin: auto;
+}
+
 .logo {
   height: 35px;
   width: 72px;
@@ -41,7 +47,7 @@ body {
 .hebergement1block {
   border-radius: 3%;
   background-color: white;
-  height: 250px;
+  height: 200px;
   width: 200px;
   margin-right: 20px;
 
@@ -62,13 +68,14 @@ body {
   flex-wrap: wrap;
   background-color: #F2F2F2;
   border-radius: 3%;
+  margin-left: 35px;
 }
 
 .hebergement2block
 {
   border-radius: 3%;
   background-color: white;
-  height: 250px;
+  height: 200px;
   width: 200px;
   margin-right: 20px;
 }
@@ -78,4 +85,16 @@ body {
   height: 100px;
   width: 200px;
   border-radius: 3% 3% 0% 0%;
+}
+.section 
+{
+  display: flex;
+  flex-direction: row;
+  justify content: center;
+}
+
+p
+{
+  margin: 0;
+
 }
