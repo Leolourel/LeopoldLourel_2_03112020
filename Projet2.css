@@ -1,4 +1,54 @@
-body
-{
-  color: rgba(187, 133, 133, 0.596);
+
+
+body {
+  background-color: white;
+  font-family: 'raleway', Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.logo {
+  height: 35px;
+  width: 72px;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hebergement1 {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 700px;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  border-radius: 3%;
+}
+
+.hebergement1image {
+  height: 100px;
+  width: 200px;
+  border-radius: 3% 3% 0% 0%;
+}
+
+.hebergement1h1 {
+  width: 600px;
+  text-align: left;
+  margin: 0%;
+}
+
+.hebergement1block {
+  border-radius: 3%;
+  background-color: white;
+  height: 250px;
+  width: 200px;
+  margin-right: 20px;
+
+}
+
+.hebergement1footer {
+  width: 700px;
+  text-align: left;
+  margin: 0;
 }
