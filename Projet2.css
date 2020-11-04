@@ -11,15 +11,32 @@ body {
 }
 
 .logo {
-  height: 35px;
-  width: 72px;
+  height: 39px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left:50px ;
 }
-
+.logo2
+{
+margin: 0;
+}
 .header1 {
   display: flex;
   justify-content: space-between;
 }
 
+.header2
+{
+  display: flex;
+  justify-content: right;
+  margin-right: 77px;
+}
+
+.header2h3
+{
+  margin-left:70px ;
+  margin-top: 50px;
+}
 .hebergement1 {
   display: flex;
   justify-content: center;
