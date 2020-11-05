@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: 'raleway', Arial, Helvetica, sans-serif;
+  font-family: "raleway", Arial, Helvetica, sans-serif;
   color: black;
 }
 
@@ -32,15 +32,14 @@ body {
   justify-content: right;
   margin-right: 77px;
 }
-.headerh1
-{
+
+.headerh1 {
   font-size: 1.2rem;
   margin-left: 40px;
   font-weight: bolder;
 }
 
-.headerh2
-{
+.headerh2 {
   font-size: 1rem;
   margin-left: 40px;
   font-weight: 600;
@@ -57,7 +56,7 @@ body {
   height: 626px;
   width: 880px;
   flex-wrap: wrap;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 22px;
   margin-left: 40px;
 }
@@ -78,7 +77,6 @@ body {
   margin-top: 34px;
   margin-left: -22px;
   font-weight: bolder;
-
 }
 
 .hebergement1block {
@@ -88,7 +86,6 @@ body {
   width: 244px;
   margin-right: 31px;
   text-align: left;
-
 }
 
 .hebergement1footer {
@@ -103,10 +100,26 @@ body {
   height: 626px;
   width: 421px;
   flex-wrap: wrap;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 22px;
   margin-left: 35px;
 }
+
+.hebergement2h1 {
+  display: flex;
+  width: 357px;
+  justify-content: space-between;
+  height: 21px;
+  margin: auto;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.hebergement2logoh1
+{
+  margin-right: 21px;
+}
+
 
 .hebergement2block {
   border-radius: 22px;
@@ -114,7 +127,6 @@ body {
   height: 145px;
   width: 345px;
   margin-right: 20px;
-
 }
 
 .hebergement2images {
@@ -174,6 +186,6 @@ p {
   width: 1440px;
   justify-content: left;
   flex-direction: row;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   margin: 0;
 }
