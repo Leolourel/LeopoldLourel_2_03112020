@@ -115,8 +115,7 @@ body {
   position: relative;
 }
 
-.hebergement2logoh1
-{
+.hebergement2logoh1 {
   margin-right: 21px;
 }
 
@@ -148,31 +147,60 @@ p {
   font-size: 1rem;
 }
 
-.activites1 {
+.activitescontainer1 {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   height: 530px;
-  width: 1340px;
-  margin: auto;
+  width: 665px;
+  border: 2px black solid;
+  margin: 0;
+  flex-wrap: wrap;
 }
 
-.activites2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 500px;
-  width: 650px;
+.activites1h1 {
+  position: relative;
+  margin-top: -20px;
+  margin-left: 10px;
 }
 
-.activites3 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.activites1img1 {
+  height: 391px;
+  width: 300px;
+  border-radius: 22px 22px 0px 0px;
+}
+
+.activites1:nth-child(2) {
   height: 446px;
-  width: 650px;
-  margin-top: 91px;
-  margin-left: 45px;
+  width: 300px;
+  border-radius: 22px;
+  box-shadow: 0px 5px 2px #f2f2f2;
+}
+
+.activites1img2 {
+  height: 182px;
+  width: 300px;
+  border-radius: 22px 22px 0px 0px;
+}
+
+.activites1:nth-child(3) {
+  height: 235px;
+  width: 300px;
+  border-radius: 22px;
+  box-shadow: 0px 5px 2px #f2f2f2;
+}
+
+.activites1img3 {
+  height: 110px;
+  width: 300px;
+  border-radius: 22px 22px 0px 0px;
+}
+
+.activites1:nth-child(4) {
+  height: 166px;
+  width: 300px;
+  border-radius: 22px;
+  box-shadow: 0px 5px 2px #f2f2f2;
 }
 
 .activitesimages {
