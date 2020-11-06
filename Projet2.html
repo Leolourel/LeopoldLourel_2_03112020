@@ -37,30 +37,41 @@
             <h1 class="headerh1">Trouver votre hébergement pour des vacances de réve</h1>
             <h2 class="headerh2">En plein centre ville ou en pleine nature </h2>
 
-           <div class="headerrecherche"> <form method="POST" action="traitement.js">
+            <div class="headerrecherche">
+                <form method="POST" action="traitement.js">
 
-                <p>
-                    <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
-                    <input type="search"
-                        name="recherche" id="recherche" placeholder="Marseille, France">
+                    <p>
+                        <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
+                        <input type="search" name="recherche" id="recherche" placeholder="Marseille, France">
 
-                    <input type="submit" value="Recherche">
-                </p>
+                        <input type="submit" value="Recherche">
+                    </p>
 
 
-            </form></div>
+                </form>
+            </div>
             <br>
 
             <div class="headerfiltre">
 
-                <p>Filtres
-                    <a href="#"><i class="fas fa-money-bill-wave"></i> Economique</a>
-                    <a href="#"><i class="fas fa-child"></i>Familial</a>
-                    <a href="#"><i class="fas fa-heart"></i>Romantique</a>
-                    <a href="#"><i class="fas fa-dog"></i>Animaux autorisés</a></p>
+                <p> <span id="headerparafiltre"> Filtres</span>
+                    <label for="economique"><i class="fas fa-money-bill-wave"></i></label>
+                    <input type="button" name="economique" placeholder="Economique">
+
+                    <label for="familial"><i class="fas fa-child"></i></label>
+                    <input type="button" name="Familial" placeholder="Familial">
+
+                    <label for="Romantique"><i class="fas fa-heart"></i></label>
+                    <input type="button" name="Romantique" placeholder="Romantique">
+
+                    <label for="Animaux"><i class="fas fa-dog"></i></label>
+                    <input type="button" name="Animaux" placeholder="Animaux autorisés">
+                </p>
             </div>
             <br>
-            <div class="headerinfo"><p> <i class="fas fa-info-circle"></i> Plus de 500 logements sont disponible dans cette ville</p></div>
+            <div class="headerinfo">
+                <p> <i class="fas fa-info-circle"></i> Plus de 500 logements sont disponible dans cette ville</p>
+            </div>
             <br>
         </header>
         <section class="section">

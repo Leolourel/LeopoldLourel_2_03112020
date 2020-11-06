@@ -88,6 +88,7 @@ input[type="submit"]
   cursor: pointer;
   left: -5px;
 }
+
 i[class="fas fa-map-marker-alt"]
 {
   background:#f2f2f2;
@@ -107,12 +108,105 @@ i[class="fas fa-map-marker-alt"]
   margin-bottom: 33px;
   margin-left: 75px;
 }
+
+#headerparafiltre
+{
+  margin-right: 32px;
+  font-weight: bold;
+  
+}
+input[type="button"]
+{
+  background: none;
+  width: 190px;
+  height: 50px;
+  border:3px solid #f2f2f2;
+  outline: none;
+  padding: 0 18px;
+  border-radius: 40px 40px 40px 40px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  top: 19px;
+  right: 37px;
+  position: relative;
+  
+}
+
+input[name="Familial"]
+{
+  width: 150px;
+}
+
+i[class="fas fa-money-bill-wave"]
+{
+  background:#DEEBFF;
+  width: 50px;
+  height: 49px;
+  border: 1px solid #DEEBFF;
+  outline: none;
+  border-radius: 40px 40px 40px 40px;
+  color: #0065FC;
+  position: relative;
+  right: -20px;
+  top: -17px;
+}
+
+i[class="fas fa-child"]
+{
+  background:#DEEBFF;
+  width: 50px;
+  height: 49px;
+  border: 1px solid #DEEBFF;
+  outline: none;
+  border-radius: 40px 40px 40px 40px;
+  color: #0065FC;
+  position: relative;
+  right: -20px;
+  top: -17px;
+}
+input[name="Romantique"]
+{
+  width: 184px;
+}
+i[class="fas fa-heart"]
+{
+  background:#DEEBFF;
+  width: 50px;
+  height: 49px;
+  border: 1px solid #DEEBFF;
+  outline: none;
+  border-radius: 40px 40px 40px 40px;
+  color: #0065FC;
+  position: relative;
+  right: -20px;
+  top: -17px;
+}
+input[name="Animaux"]
+{
+  width: 244px;
+}
+
+i[class="fas fa-dog"]
+{
+  background:#DEEBFF;
+  width: 50px;
+  height: 49px;
+  border: 1px solid #DEEBFF;
+  outline: none;
+  border-radius: 40px 40px 40px 40px;
+  color: #0065FC;
+  position: relative;
+  right: -20px;
+  top: -17px;
+}
 .headerinfo
  {
    margin-left: 75px;
    margin-bottom: 20px;
-   margin-left: 75px;
  }
+
+ 
 .hebergement1 {
   display: flex;
   justify-content: center;
