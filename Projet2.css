@@ -53,11 +53,65 @@ body {
 .headerrecherche
 {
   margin-left: 75px;
+  position: absolute;
+}
+
+input
+{
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+}
+
+input[type="search"]
+{
+  background: white;
+  width: 234px;
+  height: 50px;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  font-weight: bold;
+  color: black;
+  padding: 0 18px;
+}
+input[type="submit"]
+{
+  background:#0065FC;
+  width: 134px;
+  height: 50px;
+  border: 1px solid #0065FC;
+  outline: none;
+  padding: 0 18px;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  left: -5px;
+}
+i[class="fas fa-map-marker-alt"]
+{
+  background:#f2f2f2;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  border-radius: 10px 0px 0px 10px;
+  right: -5px;
+  bottom: 15px;
+  position: relative;
+}
+
+.headerfiltre
+{
+  margin-top: 78px;
+  margin-bottom: 33px;
+  margin-left: 75px;
 }
 .headerinfo
  {
    margin-left: 75px;
    margin-bottom: 20px;
+   margin-left: 75px;
  }
 .hebergement1 {
   display: flex;
