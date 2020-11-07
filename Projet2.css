@@ -50,21 +50,19 @@ body {
   margin-left: 70px;
   margin-top: 50px;
 }
-.headerrecherche
-{
+
+.headerrecherche {
   margin-left: 75px;
   position: absolute;
 }
 
-input
-{
+input {
   position: relative;
   display: inline-block;
   font-size: 15px;
 }
 
-input[type="search"]
-{
+input[type="search"] {
   background: white;
   width: 234px;
   height: 50px;
@@ -74,9 +72,9 @@ input[type="search"]
   color: black;
   padding: 0 18px;
 }
-input[type="submit"]
-{
-  background:#0065FC;
+
+input[type="submit"] {
+  background: #0065FC;
   width: 134px;
   height: 50px;
   border: 1px solid #0065FC;
@@ -89,9 +87,8 @@ input[type="submit"]
   left: -5px;
 }
 
-i[class="fas fa-map-marker-alt"]
-{
-  background:#f2f2f2;
+i[class="fas fa-map-marker-alt"] {
+  background: #f2f2f2;
   width: 50px;
   height: 50px;
   border: 1px solid #f2f2f2;
@@ -102,45 +99,43 @@ i[class="fas fa-map-marker-alt"]
   position: relative;
 }
 
-.headerfiltre
-{
+.headerfiltre {
   margin-top: 78px;
   margin-bottom: 33px;
   margin-left: 75px;
 }
 
-#headerparafiltre
-{
-  margin-right: 32px;
+#headerparafiltre {
+  margin-right: 12px;
   font-weight: bold;
-  
+
 }
-input[type="button"]
-{
+
+
+button{
   background: none;
   width: 190px;
   height: 50px;
-  border:3px solid #f2f2f2;
+  border: 3px solid #f2f2f2;
   outline: none;
   padding: 0 18px;
   border-radius: 40px 40px 40px 40px;
   color: black;
   font-weight: bold;
   cursor: pointer;
-  top: 19px;
+  top: -2px;
   right: 37px;
   position: relative;
-  
+  z-index: 1;
+  margin-right: -33px;
 }
 
-input[name="Familial"]
-{
+.buttonfamilial {
   width: 150px;
 }
 
-i[class="fas fa-money-bill-wave"]
-{
-  background:#DEEBFF;
+i[class="fas fa-money-bill-wave"] {
+  background: #DEEBFF;
   width: 50px;
   height: 49px;
   border: 1px solid #DEEBFF;
@@ -150,11 +145,12 @@ i[class="fas fa-money-bill-wave"]
   position: relative;
   right: -20px;
   top: -17px;
+  z-index: 2;
+  cursor: pointer;
 }
 
-i[class="fas fa-child"]
-{
-  background:#DEEBFF;
+i[class="fas fa-child"] {
+  background: #DEEBFF;
   width: 50px;
   height: 49px;
   border: 1px solid #DEEBFF;
@@ -164,14 +160,15 @@ i[class="fas fa-child"]
   position: relative;
   right: -20px;
   top: -17px;
+  z-index: 2;
+  cursor: pointer;
 }
-input[name="Romantique"]
-{
+.buttonromantique {
   width: 184px;
 }
-i[class="fas fa-heart"]
-{
-  background:#DEEBFF;
+
+i[class="fas fa-heart"] {
+  background: #DEEBFF;
   width: 50px;
   height: 49px;
   border: 1px solid #DEEBFF;
@@ -181,15 +178,16 @@ i[class="fas fa-heart"]
   position: relative;
   right: -20px;
   top: -17px;
+  z-index: 2;
+  cursor: pointer;
 }
-input[name="Animaux"]
-{
+
+.buttonanimaux {
   width: 244px;
 }
 
-i[class="fas fa-dog"]
-{
-  background:#DEEBFF;
+i[class="fas fa-dog"] {
+  background: #DEEBFF;
   width: 50px;
   height: 49px;
   border: 1px solid #DEEBFF;
@@ -199,14 +197,16 @@ i[class="fas fa-dog"]
   position: relative;
   right: -20px;
   top: -17px;
+  z-index: 2;
+  cursor: pointer;
 }
-.headerinfo
- {
-   margin-left: 75px;
-   margin-bottom: 20px;
- }
 
- 
+.headerinfo {
+  margin-left: 75px;
+  margin-bottom: 20px;
+}
+
+
 .hebergement1 {
   display: flex;
   justify-content: center;
@@ -330,6 +330,7 @@ p {
   border-radius: 22px;
   box-shadow: 0px 6px 15px #f2f2f2;
 }
+
 .activites1img1 {
   height: 391px;
   width: 300px;
@@ -345,6 +346,7 @@ p {
   box-shadow: 0px 3px 15px #f2f2f2;
   margin-top: 21px;
 }
+
 .activites1img2 {
   height: 182px;
   width: 300px;
@@ -366,8 +368,7 @@ p {
   border-radius: 22px 22px 0px 0px;
 }
 
-.activites1:nth-child(5)
-{
+.activites1:nth-child(5) {
   height: 446px;
   width: 300px;
   border-radius: 22px;
@@ -375,41 +376,40 @@ p {
   margin-top: 19px;
 }
 
-.activites1img4
-{
+.activites1img4 {
   height: 391px;
   width: 300px;
   border-radius: 22px 22px 0px 0px;
 }
-.activites1:nth-child(6)
-{
+
+.activites1:nth-child(6) {
   height: 195px;
   width: 300px;
   border-radius: 22px;
   box-shadow: 0px 6px 15px #f2f2f2;
   margin-top: 22px;
 }
-.activites1img5
-{
+
+.activites1img5 {
   height: 140px;
   width: 300px;
   border-radius: 22px 22px 0px 0px;
 }
 
-.activites1:nth-child(7)
-{
+.activites1:nth-child(7) {
   height: 195px;
   width: 300px;
   border-radius: 22px;
   box-shadow: 0px 6px 15px #f2f2f2;
   margin-top: 55px;
 }
-.activites1img6
-{
+
+.activites1img6 {
   height: 140px;
   width: 300px;
   border-radius: 22px 22px 0px 0px;
 }
+
 .footer {
   display: flex;
   height: 217px;
@@ -421,32 +421,43 @@ p {
   margin-top: 61px;
   margin-left: 45px;
 }
-.footerdiv1
-{
+
+.footerdiv1 {
   margin-left: 33px;
   flex: 1;
 }
-.footerlist1
-{
-  list-style: none;
-  padding: 0;
-}
-.footerdiv2
-{
-  flex: 1;
-}
-.footerlist2
-{
-  list-style: none;
-  padding: 0;
-}
-.footerdiv3
-{
-  flex: 1;
-}
-.footerlist3
 
-{
+.footerlist1 {
   list-style: none;
   padding: 0;
+}
+
+.footerdiv2 {
+  flex: 1;
+}
+
+.footerlist2 {
+  list-style: none;
+  padding: 0;
+}
+
+.footerdiv3 {
+  flex: 1;
+}
+
+.footerlist3 {
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: black;
 }
