@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: "raleway", Arial, Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   color: black;
 }
 
@@ -37,13 +37,13 @@ body {
 .headerh1 {
   font-size: 1.2rem;
   margin-left: 75px;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 .headerh2 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-left: 75px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .header2h3 {
@@ -51,8 +51,30 @@ body {
   margin-top: 50px;
 }
 
+a.header2h3link
+{
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+}
+a.header2h3link:hover
+{
+  text-decoration: overline;
+  color: #0065FC ;
+  font-weight: 500;
+  font-size: 1rem;
+}
+a.header2h3link2
+{
+  color: #0065FC;
+}
+a.header2h3link2:hover
+{
+  color: #0065FC;
+}
+
 .headerrecherche {
-  margin-left: 75px;
+  margin-left: 71px;
   position: absolute;
 }
 
@@ -90,7 +112,7 @@ input[type="submit"] {
 i[class="fas fa-map-marker-alt"] {
   background: #f2f2f2;
   width: 50px;
-  height: 50px;
+  height: 48px;
   border: 1px solid #f2f2f2;
   outline: none;
   border-radius: 10px 0px 0px 10px;
@@ -112,7 +134,7 @@ i[class="fas fa-map-marker-alt"] {
 }
 
 
-button{
+button {
   background: none;
   width: 190px;
   height: 50px;
@@ -128,6 +150,9 @@ button{
   position: relative;
   z-index: 1;
   margin-right: -33px;
+  text-align: end;
+  font-size: 1.1rem;
+  font-family: 'raleway',sans-serif;
 }
 
 .buttonfamilial {
@@ -137,14 +162,14 @@ button{
 i[class="fas fa-money-bill-wave"] {
   background: #DEEBFF;
   width: 50px;
-  height: 49px;
+  height: 48px;
   border: 1px solid #DEEBFF;
   outline: none;
   border-radius: 40px 40px 40px 40px;
   color: #0065FC;
   position: relative;
-  right: -20px;
-  top: -17px;
+  right: -19px;
+  top: -18px;
   z-index: 2;
   cursor: pointer;
 }
@@ -152,17 +177,18 @@ i[class="fas fa-money-bill-wave"] {
 i[class="fas fa-child"] {
   background: #DEEBFF;
   width: 50px;
-  height: 49px;
+  height: 48px;
   border: 1px solid #DEEBFF;
   outline: none;
   border-radius: 40px 40px 40px 40px;
   color: #0065FC;
   position: relative;
-  right: -20px;
-  top: -17px;
+  right: -19px;
+  top: -18px;
   z-index: 2;
   cursor: pointer;
 }
+
 .buttonromantique {
   width: 184px;
 }
@@ -170,14 +196,14 @@ i[class="fas fa-child"] {
 i[class="fas fa-heart"] {
   background: #DEEBFF;
   width: 50px;
-  height: 49px;
+  height: 48px;
   border: 1px solid #DEEBFF;
   outline: none;
   border-radius: 40px 40px 40px 40px;
   color: #0065FC;
   position: relative;
-  right: -20px;
-  top: -17px;
+  right: -19px;
+  top: -18px;
   z-index: 2;
   cursor: pointer;
 }
@@ -189,14 +215,14 @@ i[class="fas fa-heart"] {
 i[class="fas fa-dog"] {
   background: #DEEBFF;
   width: 50px;
-  height: 49px;
+  height: 48px;
   border: 1px solid #DEEBFF;
   outline: none;
   border-radius: 40px 40px 40px 40px;
   color: #0065FC;
   position: relative;
-  right: -20px;
-  top: -17px;
+  right: -19px;
+  top: -18px;
   z-index: 2;
   cursor: pointer;
 }
@@ -209,7 +235,7 @@ i[class="fas fa-dog"] {
 
 .hebergement1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 626px;
   width: 880px;
   flex-wrap: wrap;
@@ -232,8 +258,8 @@ i[class="fas fa-dog"] {
   text-align: left;
   margin: 0%;
   margin-top: 34px;
-  margin-left: -22px;
-  font-weight: bolder;
+  margin-left: -4px;
+  font-weight: 700;
 }
 
 .hebergement1block {
@@ -241,11 +267,36 @@ i[class="fas fa-dog"] {
   background-color: white;
   height: 198px;
   width: 244px;
-  margin-right: 31px;
   text-align: left;
-  box-shadow: 0px 6px 22px rgb(206, 194, 183);
+  box-shadow: -1px 7px 16px rgb(217,217,217);
 }
 
+.herbergement1block, h2
+{
+ font-size: 0.9rem;
+ color: black;
+ margin-top: 6px;
+ margin-left: 17px;
+}
+.herbergement1block, h3
+{
+ font-size: 0.8rem;
+ color: black;
+ font-weight: 400;
+ margin: 0;
+ margin-left: 17px;
+ margin-top: -8px;
+}
+.rating
+{
+  margin-left: 17px;
+  direction: rtl;
+}
+.rating a {
+  color: #0065FC;
+  text-decoration: none;
+  font-size: 1em;
+}
 .hebergement1footer {
   width: 700px;
   text-align: left;
@@ -450,14 +501,13 @@ p {
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 
 }
 
-a:hover
-{
+a:hover {
   text-decoration: none;
   color: black;
 }
