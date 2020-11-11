@@ -48,20 +48,26 @@ body {
 
 .header2h3 {
   margin-left: 70px;
-  margin-top: 50px;
+  padding-top: 50px;
+  
 }
 
 a.header2h3link {
   color: black;
   font-weight: 500;
   font-size: 1rem;
+  
 }
 
 a.header2h3link:hover {
-  text-decoration: overline;
+  
   color: #0065FC;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1rem;
+  display: inline-block;
+  border-top: 1px solid #0065FC;
+  position: relative;
+ 
 }
 
 a.header2h3link2 {
@@ -70,11 +76,6 @@ a.header2h3link2 {
   font-weight: 700;
 }
 
-a.header2h3link2:hover {
-  color: #0065FC;
-  font-size: 1rem;
-  font-weight: 700;
-}
 
 .headerrecherche {
   margin-left: 71px;
@@ -105,7 +106,7 @@ input[type="submit"] {
   border: 1px solid #0065FC;
   outline: none;
   padding: 0 18px;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 18px 18px 0px;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -114,13 +115,13 @@ input[type="submit"] {
 
 i[class="fas fa-map-marker-alt"] {
   background: #f2f2f2;
-  width: 50px;
-  height: 48px;
+  width: 45px;
+  height: 49px;
   border: 1px solid #f2f2f2;
   outline: none;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 18px 0px 0px 18px;
   right: -5px;
-  bottom: 15px;
+  bottom: 18px;
   position: relative;
 }
 
@@ -133,6 +134,7 @@ i[class="fas fa-map-marker-alt"] {
 #headerparafiltre {
   margin-right: 12px;
   font-weight: bold;
+  font-size: 1rem;
 
 }
 
@@ -175,8 +177,8 @@ i[class="fas fa-money-bill-wave"] {
   border-radius: 40px 40px 40px 40px;
   color: #0065FC;
   position: relative;
-  right: -19px;
-  top: -18px;
+  right: -18px;
+  top: -21px;
   z-index: 2;
   cursor: pointer;
 }
@@ -190,8 +192,8 @@ i[class="fas fa-child"] {
   border-radius: 40px 40px 40px 40px;
   color: #0065FC;
   position: relative;
-  right: -19px;
-  top: -18px;
+  right: -18px;
+  top: -21px;
   z-index: 2;
   cursor: pointer;
 }
@@ -209,8 +211,8 @@ i[class="fas fa-heart"] {
   border-radius: 40px 40px 40px 40px;
   color: #0065FC;
   position: relative;
-  right: -19px;
-  top: -18px;
+  right: -18px;
+  top: -21px;
   z-index: 2;
   cursor: pointer;
 }
@@ -228,8 +230,8 @@ i[class="fas fa-dog"] {
   border-radius: 40px 40px 40px 40px;
   color: #0065FC;
   position: relative;
-  right: -19px;
-  top: -18px;
+  right: -18px;
+  top: -21px;
   z-index: 2;
   cursor: pointer;
 }
@@ -238,6 +240,7 @@ i[class="fas fa-dog"] {
   margin-left: 75px;
   margin-bottom: 20px;
 }
+
 
 
 .hebergement1 {
@@ -278,15 +281,21 @@ i[class="fas fa-dog"] {
   box-shadow: -1px 7px 16px rgb(217, 217, 217);
 }
 
-.herbergement1block,
-h2 {
+.herbergement1block {
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 6px;
+  margin-left: 17px;
+}
+.hebergement1h2
+{
   font-size: 0.9rem;
   color: black;
   margin-top: 6px;
   margin-left: 17px;
 }
 
-.herbergement1block,
+
 h3 {
   font-size: 0.8rem;
   color: black;
@@ -312,6 +321,18 @@ h3 {
   flex-direction: row;
   margin-left: 15px;
   margin-top: 5px;
+}
+
+.rating2
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 5px;
+  position: absolute;
+  right: 101px;
+  top: 114px;
+
 }
 
 .stars {
@@ -356,10 +377,15 @@ h3 {
   margin: auto;
   margin-bottom: 35px;
   position: relative;
+  margin-left: 41px;
 }
-
+.hebergement2h2
+{
+  font-size: 0.9rem;
+  color: black;
+}
 .hebergement2logoh1 {
-  margin-right: 21px;
+  margin-right: 27px;
 }
 
 
@@ -368,7 +394,16 @@ h3 {
   background-color: white;
   height: 145px;
   width: 345px;
-  margin-right: 20px;
+  margin-right: 5px;
+  position: relative;
+}
+.hebergement2blocktext
+{
+  position: absolute;
+    width: 155px;
+    height: 60px;
+    margin-left: 29px;
+    margin-top: 9px;
 }
 
 .hebergement2images {
@@ -387,7 +422,7 @@ h3 {
 
 p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .activitescontainer1 {
@@ -413,6 +448,7 @@ p {
   margin-left: 20px;
   margin-top: 15px;
   font-weight: 800;
+  font-size: 0.9rem;
 }
 
 .activites1:nth-child(2) {
@@ -564,4 +600,10 @@ a {
 a:hover {
   text-decoration: none;
   color: black;
+}
+
+em {
+font-size: 00.8rem;
+font-weight: 600;
+font-style: normal;
 }
