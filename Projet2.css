@@ -163,6 +163,11 @@ i[class="fas fa-map-marker-alt"] {
   font-weight: 300;
 }
 
+.headerinfotext2
+{
+  margin-left: 5px;
+}
+
 button {
   background: none;
   width: 190px;
@@ -253,6 +258,14 @@ i[class="fas fa-heart"] {
   width: 244px;
 }
 
+.fa-info-circle
+{
+  color: white;
+  background-color: #0065FC;
+  border: 1px solid #f2f2f2;
+  border-radius: 22px;
+  font-size: 1.8rem;
+}
 i[class="fas fa-dog"] {
   background: #DEEBFF;
   width: 50px;
@@ -523,86 +536,127 @@ p {
   height: 446px;
   width: 300px;
   border-radius: 22px;
-  box-shadow: 2px 2px 15px 4px #f2f2f2;
+  box-shadow: 3px 3px 12px 8px #f2f2f2;
 }
 
-.activites1img1 {
-  height: 391px;
-  width: 300px;
+
+
+.rent__image4
+{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 89% ;
+  overflow: hidden;
   border-radius: 22px 22px 0px 0px;
+  width: 100% ;
+ 
 }
-
 
 
 .activites1:nth-child(3) {
   height: 235px;
   width: 300px;
   border-radius: 22px;
-  box-shadow: 2px 2px 15px 4px #f2f2f2;
+  box-shadow: 3px 3px 12px 8px #f2f2f2;
   margin-top: 21px;
 }
 
-.activites1img2 {
-  height: 182px;
-  width: 300px;
+
+.rent__image5
+{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  overflow: hidden;
   border-radius: 22px 22px 0px 0px;
+  width:100%;
+
 }
 
+.rent__image7
+{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  overflow: hidden;
+  border-radius: 22px 22px 0px 0px;
+  width:100%;
 
+}
 .activites1:nth-child(4) {
   height: 166px;
   width: 300px;
   border-radius: 22px;
-  box-shadow: 2px 2px 15px 4px #f2f2f2;
+  box-shadow: 3px 3px 12px 8px #f2f2f2;
   margin-top: 46px;
 }
 
-.activites1img3 {
-  height: 110px;
-  width: 300px;
+.rent__image6
+{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75%;
+  overflow: hidden;
   border-radius: 22px 22px 0px 0px;
-}
+  width:100%;
 
+}
 .activites1:nth-child(5) {
   height: 446px;
   width: 300px;
   border-radius: 22px;
-  box-shadow: 2px 2px 15px 4px #f2f2f2;
+  box-shadow: 3px 3px 12px 8px #f2f2f2;
   margin-top: 19px;
 }
 
-.activites1img4 {
-  height: 391px;
-  width: 300px;
-  border-radius: 22px 22px 0px 0px;
-}
+
 
 .activites1:nth-child(6) {
   height: 195px;
   width: 300px;
   border-radius: 22px;
-  box-shadow: 2px 2px 15px 4px #f2f2f2;
+  box-shadow: 3px 3px 12px 8px #f2f2f2;
   margin-top: 22px;
 }
 
 .activites1img5 {
-  height: 140px;
-  width: 300px;
-  border-radius: 22px 22px 0px 0px;
+  height: 100%;
+  width: 100%;
+
 }
 
 .activites1:nth-child(7) {
   height: 195px;
   width: 300px;
   border-radius: 22px;
-  box-shadow: 2px 2px 15px 4px #f2f2f2;
+  box-shadow: 3px 3px 12px 8px #f2f2f2;
   margin-top: 55px;
 }
 
-.activites1img6 {
-  height: 140px;
-  width: 300px;
+.rent__image8
+{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75%;
+  overflow: hidden;
   border-radius: 22px 22px 0px 0px;
+  width:100%;
+
+}
+.activites1img6 {
+  
+  width: 100%;
+
 }
 
 .footer {
