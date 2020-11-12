@@ -324,7 +324,7 @@ i[class="fas fa-dog"] {
   height: 198px;
   width: 244px;
   text-align: left;
-  box-shadow: -1px 7px 16px rgb(217, 217, 217);
+  box-shadow: -1px 7px 10px rgb(217, 217, 217);
   padding-top: 5px;
 }
 
@@ -373,11 +373,8 @@ h3 {
 .rating2 {
   display: flex;
   flex-direction: row;
-  margin-left: 15px;
-  margin-top: 5px;
-  position: absolute;
-  right: 101px;
-  top: 114px;
+  margin-left: 164px;
+  margin-top: 50px;
 
 }
 
@@ -444,24 +441,46 @@ h3 {
   width: 345px;
   margin-right: 5px;
   position: relative;
+  box-shadow: -1px 7px 10px rgb(217, 217, 217);
 }
 
 .hebergement2blocktext {
-  position: absolute;
   width: 155px;
   height: 60px;
-  margin-left: 29px;
-  margin-top: 9px;
+  margin-left: 165px;
+  margin-top: -134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .hebergement2images {
-  margin-top: 5px;
-  margin-left: 5px;
-  height: 135px;
-  width: 129px;
+  height: 110%;
   border-radius: 22px 0px 0px 22px;
 }
-
+.rent__image2 {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: calc(100% - 10px);
+  overflow: hidden;
+  border-radius: 22px 0px 0px 22px;
+  width: 140px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.rent__image3 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 10px);
+  overflow: hidden;
+  border-radius: 22px 0px 0px 22px;
+  width: 140px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
 .section {
   display: flex;
   flex-direction: row;
