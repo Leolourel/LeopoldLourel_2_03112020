@@ -8,7 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;606;700;800;900&display=swap"
         rel="stylesheet">
 
-
+    <!-- pas de width pour bloc page ou max width+margin auto 
+nav : container, display flex,justify content end et flex direction column; border top transparent pour a 
+-enlever haut blanc de header 
+-utiliser flex box pour positioner les text dans les plus rechercher
+-appliquer la meme chose au images de activites et rechercher que hebergement1
+-->
 
 
     <title>Projet2</title>
@@ -95,16 +100,17 @@
             <br>
         </header>
         <section class="section">
-           
+
             <aside>
                 <div>
                     <div class="hebergement1">
                         <h1 class="hebergement1h1" id="hébergement">Hébergements à Marseille</h1>
 
 
-                        <div class="hebergement1block"><a href="#"> <img class="hebergement1image"
-                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\cannebiere.jpg"
-                                    alt="hotel canebiere">
+                        <div class="hebergement1block"><a href="#">
+                                <figure class="rent__image"><img class="hebergement1image"
+                                        src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\cannebiere.jpg"
+                                        alt="hotel canebiere"> </figure>
                                 <h2 class="hebergement1h2"> Auberge de la Cannebière</h2>
                                 <h3> Nuit à partir de <em>25€</em></h3>
                                 <div class="rating">
@@ -118,9 +124,10 @@
                                 </div>
 
                             </a></div>
-                        <div class="hebergement1block"><a href="#"> <img class="hebergement1image"
-                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\hotelduport.jpg"
-                                    alt="hotel du port">
+                        <div class="hebergement1block"><a href="#">
+                                <figure class="rent__image"><img class="hebergement1image"
+                                        src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\hotelduport.jpg"
+                                        alt="hotel du port"> </figure>
                                 <h2 class="hebergement1h2"> Hôtel du port</h2>
                                 <h3> Nuit à partir de 52<em>€</em></h3>
                                 <div class="rating">
@@ -135,10 +142,11 @@
 
 
                             </a></div>
-                        <div class="hebergement1block"><a href="#"> <img class="hebergement1image"
-                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\lesmouettes.jpg"
-                                    alt="hotel les mouettes">
-                                <h2 class="hebergement1h2"> Hôtel les mouettes</h2>
+                        <div class="hebergement1block"><a href="#">
+                                <figure class="rent__image"><img class="hebergement1image"
+                                        src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\lesmouettes.jpg"
+                                        alt="hotel les mouettes"> </figure>
+                                <h2 class="hebergement1h2"> Hôtel Les mouettes</h2>
                                 <h3> Nuit à partir de 76<em>€</em> </h3>
                                 <div class="rating">
                                     <div class="stars">
@@ -151,9 +159,10 @@
                                 </div>
 
                             </a></div>
-                        <div class="hebergement1block"><a href="#"> <img class="hebergement1image"
-                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\hotelmer.jpg"
-                                    alt="hotel de ma mer">
+                        <div class="hebergement1block"><a href="#">
+                                <figure class="rent__image"><img class="hebergement1image"
+                                        src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\hotelmer.jpg"
+                                        alt="hotel de ma mer"> </figure>
                                 <h2 class="hebergement1h2"> Hôtel de la mer</h2>
                                 <h3> Nuit à partir de 46<em>€</em> </h3>
                                 <div class="rating">
@@ -167,9 +176,10 @@
                                 </div>
                             </a></div>
 
-                        <div class="hebergement1block"><a href="#"> <img class="hebergement1image"
-                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\aubergelepanier.jpg"
-                                    alt="Auberge le panier">
+                        <div class="hebergement1block"><a href="#">
+                                <figure class="rent__image"><img class="hebergement1image"
+                                        src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\aubergelepanier.jpg"
+                                        alt="Auberge le panier"></figure>
                                 <h2 class="hebergement1h2">Auberge le panier</h2>
                                 <h3> Nuit à partir de <em>23€</em> </h3>
                                 <div class="rating">
@@ -182,9 +192,10 @@
                                     </div>
                                 </div>
                             </a></div>
-                        <div class="hebergement1block"><a href="#"> <img class="hebergement1image"
-                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\amina.jpg"
-                                    alt="Hotel chez amina">
+                        <div class="hebergement1block"><a href="#">
+                                <figure class="rent__image"> <img class="hebergement1image"
+                                        src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\amina.jpg"
+                                        alt="Hotel chez amina"></figure>
                                 <h2 class="hebergement1h2">Hôtel chez amina</h2>
                                 <h3> Nuit à partir de 96<em>€</em> </h3>
                                 <div class="rating">
@@ -210,8 +221,10 @@
                     <div class="hebergement2block"><a href="#"> <img class="hebergement2images"
                                 src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\soleildumatin.jpg"
                                 alt="soleil du matin">
-                           <span class="hebergement2blocktext"> <h2 class="hebergement2h2">Hôtel le soleil du matin</h2>
-                            <p> Nuit à partir de 128<em>€</em> </p></span>
+                            <span class="hebergement2blocktext">
+                                <h2 class="hebergement2h2">Hôtel le soleil du matin</h2>
+                                <p> Nuit à partir de 128<em>€</em> </p>
+                            </span>
                             <div class="rating2">
                                 <div class="stars">
                                     <i class="fa fa-star gold"></i>
@@ -225,8 +238,10 @@
                     <div class="hebergement2block"><a href="#"> <img class="hebergement2images"
                                 src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\aucoeurdeleau.jpg"
                                 alt="aucoeurdeleau">
-                                <span class="hebergement2blocktext"> <h2 class="hebergement2h2">Au cœur de l'eau Chambres d'hôtes</h2>
-                            <p> Nuit à partir de 7<em>1€</em> </p> </span>
+                            <span class="hebergement2blocktext">
+                                <h2 class="hebergement2h2">Au cœur de l'eau Chambres d'hôtes</h2>
+                                <p> Nuit à partir de 7<em>1€</em> </p>
+                            </span>
                             <div class="rating2">
                                 <div class="stars">
                                     <i class="fa fa-star gold"></i>
@@ -240,8 +255,10 @@
                     <div class="hebergement2block"><a href="#"> <img class="hebergement2images"
                                 src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\bleuetblanc.jpg"
                                 alt="Hotelbleuetblanc">
-                                <span class="hebergement2blocktext"> <h2 class="hebergement2h2">Hôtel tout bleu et blanc</h2>
-                            <p> Nuit à partir de 68<em>€</em> </p> </span>
+                            <span class="hebergement2blocktext">
+                                <h2 class="hebergement2h2">Hôtel tout bleu et blanc</h2>
+                                <p> Nuit à partir de 68<em>€</em> </p>
+                            </span>
                             <div class="rating2">
                                 <div class="stars">
                                     <i class="fa fa-star gold"></i>

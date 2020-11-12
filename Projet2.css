@@ -2,18 +2,19 @@ body {
   background-color: white;
   font-family: "Raleway", sans-serif;
   color: black;
+  margin: 0;
 }
 
 .blocpage {
-  width: 1440px;
+  max-width:1440px;
   height: 1880px;
   margin: auto;
 }
 
 .logo {
-  height: 39px;
+  height: 45%;
   width: 100px;
-  margin-top: 50px;
+  margin-top: 52px;
   margin-left: 50px;
 }
 
@@ -26,12 +27,14 @@ body {
 .header1 {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .header2 {
   display: flex;
   justify-content: right;
   margin-right: 77px;
+  margin-top: -42px;
 }
 
 .headerh1 {
@@ -49,31 +52,44 @@ body {
 .header2h3 {
   margin-left: 70px;
   padding-top: 50px;
-  
+
 }
 
 a.header2h3link {
   color: black;
   font-weight: 500;
   font-size: 1rem;
-  
+  display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: flex-end;
+    border-top: 1px solid transparent;
+
 }
 
 a.header2h3link:hover {
-  
+
   color: #0065FC;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1rem;
   display: inline-block;
   border-top: 1px solid #0065FC;
   position: relative;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
 }
 
 a.header2h3link2 {
   color: #0065FC;
   font-size: 1rem;
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: flex-end;
+  border-top: 1px solid transparent;
 }
 
 
@@ -121,12 +137,16 @@ i[class="fas fa-map-marker-alt"] {
   outline: none;
   border-radius: 18px 0px 0px 18px;
   right: -5px;
-  bottom: 18px;
+  bottom: -1px;
   position: relative;
+  display: inline-block;
+  line-height: 49px;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .headerfiltre {
-  margin-top: 78px;
+  margin-top: 70px;
   margin-bottom: 0px;
   margin-left: 75px;
 }
@@ -178,9 +198,13 @@ i[class="fas fa-money-bill-wave"] {
   color: #0065FC;
   position: relative;
   right: -18px;
-  top: -21px;
+  top: -1px;
   z-index: 2;
   cursor: pointer;
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 i[class="fas fa-child"] {
@@ -193,9 +217,13 @@ i[class="fas fa-child"] {
   color: #0065FC;
   position: relative;
   right: -18px;
-  top: -21px;
+  top: -1px;
   z-index: 2;
   cursor: pointer;
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .buttonromantique {
@@ -212,9 +240,13 @@ i[class="fas fa-heart"] {
   color: #0065FC;
   position: relative;
   right: -18px;
-  top: -21px;
+  top: -1px;
   z-index: 2;
   cursor: pointer;
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .buttonanimaux {
@@ -231,9 +263,13 @@ i[class="fas fa-dog"] {
   color: #0065FC;
   position: relative;
   right: -18px;
-  top: -21px;
+  top: -1px;
   z-index: 2;
   cursor: pointer;
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .headerinfo {
@@ -255,10 +291,8 @@ i[class="fas fa-dog"] {
 }
 
 .hebergement1image {
-  margin-top: 7px;
-  margin-left: 7px;
-  height: 116px;
-  width: 230px;
+  
+  width: 100%;
   border-radius: 22px 22px 0px 0px;
 }
 
@@ -272,6 +306,18 @@ i[class="fas fa-dog"] {
   font-weight: 800;
 }
 
+.rent__image {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 114px;
+  overflow: hidden;
+  border-radius: 22px 22px 0px 0px;
+  width: calc(100% - 10px);
+  margin-left: 5px;
+}
+
 .hebergement1block {
   border-radius: 22px;
   background-color: white;
@@ -279,6 +325,7 @@ i[class="fas fa-dog"] {
   width: 244px;
   text-align: left;
   box-shadow: -1px 7px 16px rgb(217, 217, 217);
+  padding-top: 5px;
 }
 
 .herbergement1block {
@@ -287,11 +334,11 @@ i[class="fas fa-dog"] {
   margin-top: 6px;
   margin-left: 17px;
 }
-.hebergement1h2
-{
+
+.hebergement1h2 {
   font-size: 0.9rem;
   color: black;
-  margin-top: 6px;
+  margin-top: 12px;
   margin-left: 17px;
 }
 
@@ -302,7 +349,7 @@ h3 {
   font-weight: 400;
   margin: 0;
   margin-left: 17px;
-  margin-top: -8px;
+  margin-top: -5px;
 }
 
 .fa-star {
@@ -323,8 +370,7 @@ h3 {
   margin-top: 5px;
 }
 
-.rating2
-{
+.rating2 {
   display: flex;
   flex-direction: row;
   margin-left: 15px;
@@ -378,12 +424,14 @@ h3 {
   margin-bottom: 35px;
   position: relative;
   margin-left: 41px;
+  font-weight: 800;
 }
-.hebergement2h2
-{
+
+.hebergement2h2 {
   font-size: 0.9rem;
   color: black;
 }
+
 .hebergement2logoh1 {
   margin-right: 27px;
 }
@@ -397,13 +445,13 @@ h3 {
   margin-right: 5px;
   position: relative;
 }
-.hebergement2blocktext
-{
+
+.hebergement2blocktext {
   position: absolute;
-    width: 155px;
-    height: 60px;
-    margin-left: 29px;
-    margin-top: 9px;
+  width: 155px;
+  height: 60px;
+  margin-left: 29px;
+  margin-top: 9px;
 }
 
 .hebergement2images {
@@ -418,6 +466,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+ 
 }
 
 p {
@@ -546,7 +595,6 @@ p {
   background-color: #f2f2f2;
   margin: 0;
   margin-top: 61px;
-  margin-left: 45px;
 }
 
 .footerh2 {
@@ -558,7 +606,7 @@ p {
 }
 
 .footerdiv1 {
-  margin-left: 39px;
+  margin-left: 83px;
   flex: 1;
 }
 
@@ -603,7 +651,7 @@ a:hover {
 }
 
 em {
-font-size: 00.8rem;
-font-weight: 600;
-font-style: normal;
+  font-size: 00.8rem;
+  font-weight: 600;
+  font-style: normal;
 }
