@@ -3,17 +3,12 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="Projet2.css" />
+    <link rel="stylesheet" media="all and (max-device-width: 480px) " href="Projet2iphone.css" />
     <script src="https://kit.fontawesome.com/f92a7551f7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;606;700;800;900&display=swap"
         rel="stylesheet">
-
-    <!-- pas de width pour bloc page ou max width+margin auto 
-nav : container, display flex,justify content end et flex direction column; border top transparent pour a 
--enlever haut blanc de header 
--utiliser flex box pour positioner les text dans les plus rechercher
--appliquer la meme chose au images de activites et rechercher que hebergement1
--->
 
 
     <title>Projet2</title>
@@ -94,14 +89,15 @@ nav : container, display flex,justify content end et flex direction column; bord
             </div>
             <br>
             <div class="headerinfo">
-                <p class="headerinfotext"> <i class="fas fa-info-circle"></i> <span class="headerinfotext2"> Plus de 500 logements sont disponible dans
-                    cette ville</span></p>
+                <p class="headerinfotext"> <i class="fas fa-info-circle"></i> <span class="headerinfotext2"> Plus de 500
+                        logements sont disponible dans
+                        cette ville</span></p>
             </div>
             <br>
         </header>
         <section class="section">
 
-            <aside>
+            <aside class="aside1">
                 <div>
                     <div class="hebergement1">
                         <h1 class="hebergement1h1" id="hébergement">Hébergements à Marseille</h1>
@@ -218,9 +214,10 @@ nav : container, display flex,justify content end et flex direction column; bord
                                 class="fas fa-chart-line"></i></div>
                     </h1>
 
-                    <div class="hebergement2block"><a href="#"> <figure class="rent__image2"> <img class="hebergement2images"
-                                src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\soleildumatin.jpg"
-                                alt="soleil du matin"></figure>
+                    <div class="hebergement2block"><a href="#">
+                            <figure class="rent__image2"> <img class="hebergement2images"
+                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\soleildumatin.jpg"
+                                    alt="soleil du matin"></figure>
                             <span class="hebergement2blocktext">
                                 <h2 class="hebergement2h2">Hôtel le soleil du matin</h2>
                                 <p> Nuit à partir de 128<em>€</em> </p>
@@ -235,9 +232,10 @@ nav : container, display flex,justify content end et flex direction column; bord
                                 </div>
                             </div>
                         </a></div>
-                    <div class="hebergement2block"><a href="#"><figure class="rent__image2"> <img class="hebergement2images"
-                                src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\aucoeurdeleau.jpg"
-                                alt="aucoeurdeleau"></figure>
+                    <div class="hebergement2block"><a href="#">
+                            <figure class="rent__image2"> <img class="hebergement2images"
+                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\aucoeurdeleau.jpg"
+                                    alt="aucoeurdeleau"></figure>
                             <span class="hebergement2blocktext">
                                 <h2 class="hebergement2h2">Au cœur de l'eau Chambres d'hôtes</h2>
                                 <p> Nuit à partir de 7<em>1€</em> </p>
@@ -252,9 +250,10 @@ nav : container, display flex,justify content end et flex direction column; bord
                                 </div>
                             </div>
                         </a></div>
-                        <div class="hebergement2block"><a href="#"><figure class="rent__image3"> <img class="hebergement2images"
-                            src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\bleuetblanc.jpg"
-                            alt="Hotel tout bleu et blanc"></figure>
+                    <div class="hebergement2block"><a href="#">
+                            <figure class="rent__image3"> <img class="hebergement2images"
+                                    src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\hebergements\4_small\bleuetblanc.jpg"
+                                    alt="Hotel tout bleu et blanc"></figure>
                             <span class="hebergement2blocktext">
                                 <h2 class="hebergement2h2">Hôtel tout bleu et blanc</h2>
                                 <p> Nuit à partir de 68<em>€</em> </p>
@@ -279,31 +278,43 @@ nav : container, display flex,justify content end et flex direction column; bord
 
                 <h1 id="Activités" class="activites1h1">Activités à Marseille</h1>
 
-                <div class="activites1"><a href="#"> <figure class="rent__image4"><img class="activites1img1"
-                            src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\vieuxport.jpg"></figure>
+                <div class="activites1"><a href="#">
+                        <figure class="rent__image4"><img class="activites1img1"
+                                src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\vieuxport.jpg">
+                        </figure>
                         <h2 class="activitesh2">Vieux Port</h2>
                     </a></div>
-                <div class="activites1"><a href="#"> <figure class="rent__image5"><img class="activites1img2"
-                            src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\pomègues.jpg"></figure>
+                <div class="activites1"><a href="#">
+                        <figure class="rent__image5"><img class="activites1img2"
+                                src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\pomègues.jpg">
+                        </figure>
                         <h2 class="activitesh2">Fort de Pomègues</h2>
                     </a></div>
-                <div class="activites1"><a href="#"> <figure class="rent__image7"><img class="activites1img3"
-                            src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\ilesfrioul.jpg"></figure>
+                <div class="activites1"><a href="#">
+                        <figure class="rent__image7"><img class="activites1img3"
+                                src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\ilesfrioul.jpg">
+                        </figure>
                         <h2 class="activitesh2">Îles du Frioult</h2>
                     </a></div>
 
 
 
-                <div class="activites1"><a href="#"> <figure class="rent__image4"><img class="activites1img4"
-                            src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\calanques.jpg"></figure>
+                <div class="activites1"><a href="#">
+                        <figure class="rent__image4"><img class="activites1img4"
+                                src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\calanques.jpg">
+                        </figure>
                         <h2 class="activitesh2">Parc National des Calanques</h2>
                     </a></div>
-                <div class="activites1"><a href="#"> <figure class="rent__image6"><img class="activites1img5"
-                            src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\notredame.jpg"></figure>
+                <div class="activites1"><a href="#">
+                        <figure class="rent__image6"><img class="activites1img5"
+                                src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\notredame.jpg">
+                        </figure>
                         <h2 class="activitesh2">Notre-dame-de-la-Garde</h2>
                     </a></div>
-                <div class="activites1"><a href="#">  <figure class="rent__image8"><img class="activites1img6"
-                            src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\longchamp.jpg"></figure>
+                <div class="activites1"><a href="#">
+                        <figure class="rent__image8"><img class="activites1img6"
+                                src="C:\Users\leolo\OneDrive\Documents\OpenClassroom\P2_Lourel_Leopold\images\activites\4_small\longchamp.jpg">
+                        </figure>
                         <h2 class="activitesh2">Parc Longchamp</h2>
                     </a></div>
 
