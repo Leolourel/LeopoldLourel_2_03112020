@@ -1,3 +1,9 @@
+html
+{
+  max-width: 1800px;
+  min-width: 1000px;
+  width: 1500px;
+}
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
@@ -527,14 +533,14 @@ p {
   margin-top: 37px;
 }
 
-.activites1h1 {
+.activites11 {
   position: relative;
   margin-top: -20px;
   margin-left: 10px;
   font-weight: 800;
 }
 
-.activitesh2 {
+.activites12 {
   margin-left: 20px;
   margin-top: 15px;
   font-weight: 800;
