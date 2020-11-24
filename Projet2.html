@@ -1,27 +1,19 @@
- <!DOCTYPE html>
- <!--Problemes a traiter avec Patxi :
-
-- version mobile pourquoi marge à droite 
-- info circle font awesome 
-- comprendre les Breakpoints
+ 
+<!--
 - avertissment html validator 
-- Filtre hebergement et activites version mobile 
-- Marge header et nav a enlever
-- integrer media queries et supp fichier iphone 
-- display none et class iphoneonly/pconly pour la bar de recherche 
-- integrer 3eme media queries avec le fichier ipad au css (verifier les breakpoints)
-- Changer les niveaux de titres pour les avertissements w3c, pareil pour le css 
-- Ajouter des commentaires pour structurer le code avec logique 
-- Verifier la structure du css et regrouper au bonne endroit les balises 
-
+- Changer les niveaux de titres pour les avertissements w3c, pareil pour le 
 -->
+
+ <!DOCTYPE html>
+
+
+
 <html lang="fr">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="Projet2.css" />
-    <link rel="stylesheet" media="all and (max-width: 768px) " href="Projet2iphone.css" />
     <script src="https://kit.fontawesome.com/f92a7551f7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;606;700;800;900&display=swap"
         rel="stylesheet">
@@ -49,14 +41,14 @@
 <body>
     <div class="blocpage">
 
-        <header>
+        <header>    
             <div class="header1">
                 <figure class="logo2">
                     <img class="logo"
                         src="C:/Users/leolo/OneDrive/Documents/OpenClassroom/P2_Lourel_Leopold/images/logo/Reservia@3x.png"
                         alt="logo">
                 </figure>
-                <nav class="header2">
+                <nav class="header2">  <!--Navbar-->
 
 
                     <h3 class="header2h3"><a class="header2h3link" href="#hébergement">Hébergements</a></h3>
@@ -75,12 +67,12 @@
             <div class="headerrecherche">
                 <form method="POST" action="traitement.js">
 
-                    <p>
+                    <p> <!--Barre de recherche, editeur de texte seulement-->
                         <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
                         <input type="search" name="recherche" id="recherche" placeholder="Marseille, France">
 
-                        <input type="submit" value="Recherche">
-                        <button class="buttonsubmitphone"><i class="fas fa-search"></i></button>                      
+                        <input type="submit" value="Recherche"> <!--Button version web seulement-->
+                        <button class="buttonsubmitphone"><i class="fas fa-search"></i></button> <!--Button responsive seulement-->                      
                     </p>
 
 
@@ -88,7 +80,7 @@
             </div>
             <br>
 
-            <div class="headerfiltre">
+            <div class="headerfiltre"> <!--Filtre recherche, pas fonctionnel-->
 
                 <p class="headerfiltre2"> <span id="headerparafiltre"> Filtres</span>
                     <i class="fas fa-money-bill-wave"></i>
@@ -116,7 +108,8 @@
 
             <aside class="aside1">
 
-                <div class="hebergement1">
+                <div class="hebergement1"> <!--Bloc hebergement N°1 Regroupe les 6 premiers Hotels
+                Bloc de gauche au dela 1024px et apparait en second au dessous de 1024px et version responsive-->
                     <h1 class="hebergement1h1" id="hébergement">Hébergements à Marseille</h1>
 
 
@@ -226,7 +219,8 @@
             </aside>
 
             <aside>
-                <div class="hebergement2">
+                <div class="hebergement2"> <!--Bloc hebergement N°2 Regroupe les plus populaires
+                - bloc de droite version web et apparait en premier en responsive et jusqu'à 1024px-->
                     <h1 class="hebergement2h1">Les plus populaires <span class="hebergement2logoh1"><i
                                 class="fas fa-chart-line"></i></span>
                     </h1>
@@ -293,9 +287,9 @@
         <section>
             <aside class="activitescontainer1">
 
-                <h1 class="activites11">Activités à Marseille</h1>
+                <h1 class="activites11">Activités à Marseille</h1> <!--Containers Activcitées -->
 
-                <div class="activites1"><a href="#">
+                <div class="activites1"><a href="#"> <!--Utilisation de flex box et Ntchild() pour personaliser chaque box -->
                         <figure class="rent__image4"><img class="activites1img1"
                                 src="C:/Users/leolo/OneDrive/Documents/OpenClassroom/P2_Lourel_Leopold/images/activites/4_small/vieuxport.jpg"
                                 alt="Vieux port">
