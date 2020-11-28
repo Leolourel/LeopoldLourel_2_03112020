@@ -30,7 +30,7 @@ a:hover {
 }
 
 em {
-  font-size: 00.8rem;
+  font-size: 0.8rem;
   font-weight: 600;
   font-style: normal;
 }
@@ -58,7 +58,6 @@ em {
 .header2 {
   display: flex;
   justify-content: right;
-  margin-right: 77px;
   margin-top: -42px;
 }
 
